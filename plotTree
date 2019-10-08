@@ -1,0 +1,6 @@
+import os
+os.environ["PATH"] += os.pathsep + 'C:/ProgramData/Anaconda2/Lib/site-packages/graphviz-2.38/bin/'
+xgb.plot_tree(gbm,num_trees=4)
+plt.rcParams['figure.figsize']=(50,80)
+plt.rcParams['figure.figsize']
+plt.show()
